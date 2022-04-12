@@ -101,6 +101,10 @@ body {
 	gap: 10px;
 }
 
+.pagination-container button {
+	padding: 0px 5px;
+}
+
 .pokemon-heart-btn {
 	border: none;
 	background-color: white;
@@ -126,6 +130,9 @@ body {
 	padding: 2px 4px;
 	outline: none;
 	width: 300px;
+	background-color: #fff;
+	font-weight: 700;
+	border: none;
 }
 
 .searchbar button {
