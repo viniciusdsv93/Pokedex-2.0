@@ -10,7 +10,7 @@ export const Pokemon = ({ pokemonItem }) => {
 	return (
 		<div className='pokemon-card'>
 			<div className='pokemon-image-container'>
-				<img src={`http://localhost:3000/images/${pokemonItem.id}.gif`} className='pokemon-image' />
+				<img src={`images/${pokemonItem.id}.gif`} className='pokemon-image' />
 			</div>
 			<div className='card-body'>
 				<div className='card-top'>
